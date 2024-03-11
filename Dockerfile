@@ -4,7 +4,7 @@ FROM node:18-alpine AS base
 WORKDIR /base
 
 COPY ./package.json ./
-COPY ./.env ./
+COPY ./.env.prod ./
 COPY ./next.config.mjs ./
 COPY ./jsconfig.json ./
 COPY ./tailwind.config.js ./
