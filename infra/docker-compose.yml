@@ -1,0 +1,23 @@
+version: "3.8"
+services:
+  mongodb:
+    image: mongo:7.0.5
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - ${MONGO_DIR_PATH}:/data/db
+    networks:
+      - vanilla_blog_net
+  vanillablog:
+    image: kindofbyte/vanillablog:0.1.0
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongodb
+    networks:
+      - vanilla_blog_net
+networks:
+  vanilla_blog_net:
+    driver: bridge

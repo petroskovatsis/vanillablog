@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --theme-background: #FFFFFF;
+  --theme-foreground: #121212;
+  --theme-color-white: #FFFFFF;
+  --theme-color-shadow: #CECECE;
+  --theme-color-border: #CCCCCC;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+
+  }
+}
+
+@layer utilities {
+
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: var(--theme-foreground);
+  background-color: var(--theme-background);
+}
+
+nav {
+  padding: 1rem 0;
+  background-color: var(--theme-color-white);
+  box-shadow: 2px 2px 4px var(--theme-color-shadow);
+  border-bottom: 1px solid var(--theme-color-border);
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  padding: 1rem 0;
+  background-color: var(--theme-color-white);
+  border-top: 1px solid var(--theme-color-border);
+}

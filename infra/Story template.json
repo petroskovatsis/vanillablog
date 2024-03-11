@@ -1,0 +1,9 @@
+{
+	"title": "Lorem Ipsum",
+	"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam luctus, odio a sodales aliquam, est justo feugiat odio, id dictum risus metus pretium purus. Aenean tristique tellus justo, ut blandit sem tempor sed. Sed id lorem ac lectus semper mollis at quis ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum sed ex ultricies, varius odio a, sagittis dui. Duis id augue erat. Phasellus semper mi nunc, nec posuere lorem euismod vitae. Sed a turpis congue, suscipit sem non, bibendum elit. Pellentesque libero lectus, cursus blandit est at, tempor lobortis est. Proin tempor diam a lorem dignissim, eget sodales dolor finibus.",
+	"metadata": {
+		"publishDate": { "$date": "2024-03-11T11:00:00.000Z" },
+		"staticTitle": "lorem-ipsum"
+	}
+}
